@@ -21,7 +21,7 @@ mongoose.connect(process.env.MONGO_URL ||'mongodb://localhost:27017/curso', {
 });
 
 if(process.env.NODE_ENV === 'production'){
-    app.use(express.static('cliente/build'));
+    app.use(express.static('client/build'));
 };
 
 app.use(cors());
