@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const routes = require('./src/routes')
 
 const app = express();
-const port = process.env.PORT || 5003;
+const port = process.env.PORT || 5005;
 
 mongoose.connect(process.env.MONGO_URL ||'mongodb://localhost:27017/curso', {
     useUnifiedTopology: true,
