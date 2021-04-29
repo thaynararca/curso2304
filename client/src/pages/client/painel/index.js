@@ -67,7 +67,7 @@ export default function Album() {
         <Toolbar>
           <CameraIcon className={classes.icon} />
           <Typography variant="h6" color="inherit" noWrap>
-            Album layout
+            Teste de página
           </Typography>
         </Toolbar>
       </AppBar>
@@ -76,7 +76,7 @@ export default function Album() {
         <div className={classes.heroContent}>
           <Container maxWidth="sm">
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-              Album layout
+              TESTE 01
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph>
             nome_produto, descricao_produto, preco_produto, qtd_produto
